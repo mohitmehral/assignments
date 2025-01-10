@@ -3,6 +3,10 @@
 ## Objective
 This assignment requires you to design and implement a database schema for a basic e-commerce website. The primary components will include tables for users and orders, along with a trigger to log updates made to the orders in a separate audit table.
 
+## Developer notes
+checkout code - create branch with your name
+You have to submit your solution in the created branch and commit the file named `Postgre-Assignment-0001.sql`.
+
 ## Requirements
 - **PostgreSQL**: Make sure PostgreSQL is installed on your system. You can download it from [the official PostgreSQL website](https://www.postgresql.org/download/).
 - **Tools**: Use pgAdmin4 or the command line tool (psql) for interacting with the PostgreSQL database.
