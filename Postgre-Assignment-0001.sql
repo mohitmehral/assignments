@@ -11,7 +11,7 @@ CREATE TABLE orders (
     order_id SERIAL PRIMARY KEY,
     user_id INTEGER NOT NULL REFERENCES users(user_id),
     product_name TEXT NOT NULL,
-    quantity INTEGER NOT NULL CHECK (quantity > 0),
+    quantity INTEGER NOT NULL ,
     order_date DATE NOT NULL DEFAULT CURRENT_DATE
 );
 
